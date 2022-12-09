@@ -6,7 +6,7 @@ const fs = require("fs");
 dotenv.config({ path: "./config/config.env" });
 
 // replace the value below with the Telegram token you receive from @BotFather
-const token = "5857520568:AAF932wbM8cQB22ycRrw9pWl0qiVwAVP3ds";
+const token = process.env.TELEGRAM_BOT_API_KEY;
 
 // Create a bot that uses 'polling' to fetch new updates
 const bot = new TelegramBot(token, { polling: true });
@@ -15,7 +15,7 @@ bot.on("message", async (msg) => {
   const userChatId = msg.chat.id;
   const userMessage = msg.text;
   
-  if ((msg.video || msg.document) && userChatId=="1618961129") {
+  if ((msg.video || msg.document) && userChatId===process.env.USER_CHAT_ID) {
     await bot.sendMessage(userChatId, msg.video.file_id);
     return;
   }
