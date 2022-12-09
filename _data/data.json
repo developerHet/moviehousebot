@@ -1,0 +1,57 @@
+[
+    {
+        "name":"Thank God",
+        "type":"m",
+        "data":[
+            {
+                "quality":"480p",
+                "fileId":"BAACAgUAAxkBAAN1Y5NDmvznthCL9FAdv-TBqMntLQkAAkEJAAKS9plU6xQfWa3fPdMrBA"
+            },
+            {
+                "quality":"720p",
+                "fileId":"BAACAgUAAxkBAAN3Y5NDoDCMXLdRqig4E_0hDy8glHEAAkAJAAKS9plU6virZ9s4_6UrBA"
+            },
+            {
+                "quality":"1080p",
+                "fileId":"BAACAgUAAxkBAAN5Y5NDp94cnp1JeGq115FBypiIDfYAAlMIAALjBplUhEW-b3Sg9owrBA"
+            }
+        ]
+     },
+     {
+        "name":"series_name",
+        "type":"s",
+        "data":[
+           {
+              "quality":"720p",
+              "s1":[
+                {
+                    "e1":"720p_season1_episode1",
+                    "e2":"720p_season1_episode2"
+                }
+              ],
+              "s2":[
+                {
+                    "e1":"720p_season2_episode1",
+                    "e2":"720p_season2_episode2"
+                }
+              ]
+           },
+           {
+            "quality":"1080p",
+            "s1":[
+              {
+                  "e1":"1080p_season1_episode1",
+                  "e2":"1080p_season1_episode2"
+              }
+            ],
+            "s2":[
+              {
+                  "e1":"1080p_season2_episode1",
+                  "e2":"1080p_season2_episode2"
+              }
+            ]
+         }
+        ]
+     }
+     
+]
