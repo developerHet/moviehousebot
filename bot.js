@@ -9,7 +9,16 @@ dotenv.config({ path: "./config/config.env" });
 const token = process.env.TELEGRAM_BOT_API_KEY;
 
 // Create a bot that uses 'polling' to fetch new updates
-const bot = new TelegramBot(token, { polling: true });
+const bot = new TelegramBot(token, {
+  webHook: {
+      port: process.env.PORT,
+      host: "0.0.0.0"
+  }
+});
+
+bot.setWebHook(
+  `${process.env.HOST_URL}/${token}`
+);
 
 console.log("Bot running on server....");
 
