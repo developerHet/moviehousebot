@@ -18,39 +18,24 @@
         ]
      },
      {
-        "name":"series_name",
+        "name":"She-Hulk: Attorney at Law",
         "type":"s",
         "data":[
            {
               "quality":"720p",
               "s1":[
                 {
-                    "e1":"720p_season1_episode1",
-                    "e2":"720p_season1_episode2"
-                }
-              ],
-              "s2":[
-                {
-                    "e1":"720p_season2_episode1",
-                    "e2":"720p_season2_episode2"
+                    "e1":"BAACAgIAAxkBAAIBlmOXemsbOjeJZVqw92ctF971FTBVAALyHQACQdz5S4fyZ0KbyBOGKwQ",
+                    "e3":"BAACAgIAAxkBAAIBh2OXeXrGlLC5yZYjqMepBudyuAGtAAJlHwAC7xyQSA94JRTamYAzKwQ",
+                    "e4":"BAACAgIAAxkBAAIBiGOXeXpOrMNelhI326ixMOGRCXuuAAIXHgAC6_YgSaD41a_87-a-KwQ",
+                    "e5":"BAACAgIAAxkBAAIBiWOXeXqMWRuTjRcuoCKkmN6LdzTcAAIbHgAC6_YgSQ_jeqEf30dNKwQ",
+                    "e6":"BAACAgIAAxkBAAIBimOXeXo1n57_nDMIougqWh0oo9VOAAJgJQACDh1gS6QGZlUzxAt8KwQ",
+                    "e7":"BAACAgIAAxkBAAIBi2OXeXqs9CZ3Nm7wGX2iUH1GOomXAAJkJQACDh1gS_YTtwZGMOp0KwQ",
+                    "e8":"BAACAgIAAxkBAAIBjGOXeXoO6vvghl7j3Bny8Pp1GZTsAAJoJQACDh1gSzdVi9k3q8j7KwQ",
+                    "e9":"BAACAgIAAxkBAAIBjWOXeXqJQiTFijQULz9ZXreyjsGTAAJtJQACDh1gS7DmJeES3B7HKwQ"
                 }
               ]
-           },
-           {
-            "quality":"1080p",
-            "s1":[
-              {
-                  "e1":"1080p_season1_episode1",
-                  "e2":"1080p_season1_episode2"
-              }
-            ],
-            "s2":[
-              {
-                  "e1":"1080p_season2_episode1",
-                  "e2":"1080p_season2_episode2"
-              }
-            ]
-         }
+           }
         ]
      }
      
